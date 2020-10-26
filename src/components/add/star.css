@@ -1,0 +1,11 @@
+.star {
+    /* color: rgb(160, 157, 157); */
+    cursor: pointer;
+    margin: 5px;
+}
+.star:hover {
+    color : goldenrod
+}
+input[type="radio"]{
+    display:none
+}

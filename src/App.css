@@ -1,0 +1,36 @@
+.App-header {
+  background-color: #282c34;
+  min-height: 100vh;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  font-size: calc(10px + 2vmin);
+  color: white;
+}
+*{
+  margin : 0;
+  padding: 0;
+}
+body{
+  background-color: #f5f0eb;
+}
+.App > .header {
+  display:flex;
+  justify-content: space-around;
+  background-color:#5eaaa8 ;
+  padding :1.2% 2%;
+  position: relative;
+  box-shadow:0 1px 2px #056676;
+}
+.App >.header > .add{
+    position: absolute;
+    right: 10%;
+    top :65%;
+    outline-style: none;
+    border: 0;
+}
+.container {
+  background-color: #cde1e4;
+  
+}

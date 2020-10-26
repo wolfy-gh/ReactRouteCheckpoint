@@ -1,0 +1,31 @@
+.filter {
+    display :flex;
+}
+.filter > .search {
+    background-color:#c2e0df;
+    border: 1px solid #16928e ; 
+    border-radius: 999px;
+    margin-right : 20px;
+    padding :5px 0 8px 0;
+}
+.filter > .search > input {
+    text-align: center;
+    border:0;
+    outline-style: none;
+    background-color:#c2e0df;
+    width: 70%;
+}
+.filter >.search > .search_icon {
+    color:gray;
+    font-size: 1rem;
+    margin:5px 0 0 10px;
+
+}
+.filter > select {
+    border-radius: 5px;
+    padding :10px;
+    border: 1px solid #16928e ; 
+    background-color:#c2e0df;
+    outline-style: none;
+    color : gray;
+}
